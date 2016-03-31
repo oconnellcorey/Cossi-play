@@ -2,12 +2,12 @@
 /* CSS Document */
 
 h1{
-	color:#B44215;
-	font-size:60px;
-	
-}body h1 {
+	color:#ff4600;
+	font-size:90px;
+	font:bold
+}
+body h1 {
 	text-align: center;
-	background-color:#5C5C5C;
 }
 body{background-color:#595959;
 }
@@ -18,29 +18,90 @@ ul{
 }
 ul li{
 	float:left;
-	width:192px;
+	width:137px;
 	height:30px;
 	line-height:30px;
 	text-align:center;
-	background-color:#5c5c5c;
-	color:#FFFFFF;
+	background-color:#11133B;
+	color:#E80307;
 }
 ul li:hover{
-	background-color:#B44215;
+	background-color:#FF7600;
+	
 }
 ul li a{
-	text-decoration:none;
-	color:#fffff;
+	text-decoration: none;
+	color: #FFFFFF;
 }
 ul li li{
-	background-color:#5C5C5C;
-	color: #FFFFFF;
-	display:none;
+	background-color:#11133b;
+	color: #FFFFF
+	
 }
 ul li li:hover{
-	background-color:#B44215;
+	background-color:#ff7600;
 }
+#sign-up-cont{
+	text-align:right;
+	padding-right:20px;
+	background-color:#FF4600}
+#sign-up-button{
+	background-color:#11133b;
+	color:#FFFFFF;
+	padding-right:30px;
+	padding-left:30px;
+	padding-top:3px;
+	padding-bottom:5px;
 	
+}
+#sign-up-cont :hover{
+	background-color:#FF7600;
+}
+#sign-up-button a{
+	text-decoration:none;
+	color:#fff;
+}
+.photos-center{
+	text-align:center;
+	}
+.photo-right{
+	float:right}
+	body,td,th {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.container {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #B7B7B7;
+	text-align: left;
+}
+.header1 {
+	height: 125px;
+	background-image: url(images/header-pic.png), -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(233,206,206,1.00) 100%);
+	background-image: url(images/header-pic.png), -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(233,206,206,1.00) 100%);
+	background-image: url(images/header-pic.png), -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(233,206,206,1.00) 100%);
+	background-image: url(images/header-pic.png), linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(233,206,206,1.00) 100%);
+}
+.content {
+	padding-top: 120px;
+	padding-right: 70px;
+	padding-left: 70px;
+	padding-bottom: 100px;
+}
+.footer1 {
+	padding: 5px;
+	text-align:center;
+	clear:both;
+	position:relative;
+	z-index:10;
+	padding-top:125px;
+	}
+.photo-left{
+	float:left;
+	padding:15px;
+}
+
 	
 
 	
